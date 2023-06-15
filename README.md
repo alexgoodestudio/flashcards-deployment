@@ -9,7 +9,7 @@ The flashcards app is difficult to deploy because of the way its backend is set 
 ## Deploying the Backend
 
 1. Fork this repository.
-2. Deploy it to Render by connecting the GitHub repo with a Web Service on Render.
+2. Deploy it to Render by connecting the GitHub repo with a Web Service on Render. Change the `start` command to `npm start`.
 3. Confirm that you can visit the `/decks` route on your deployment and see decks data.
 4. Note the URL at which you've deployed the backend for future use.
 
