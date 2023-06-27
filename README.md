@@ -25,7 +25,7 @@ The flashcards app is difficult to deploy because of the way its backend is set 
     ```
 
 3. Add, commit, and push all your changes to GitHub.
-4. Deploy to Render by connecting the GitHub repo with a Static Site.
+4. Deploy to Render by connecting the GitHub repo with a Static Site. (For a reminder of how to do this, you can reference the module on frontend deployment.)
 5. Follow [Render's directions](https://render.com/docs/deploy-create-react-app#using-client-side-routing) to enable refreshing the page on your app.
 
 ## Connecting Your Deployed Frontend & Backend
