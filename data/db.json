@@ -238,6 +238,96 @@
       "front": "What are ECS task definitions?",
       "back": "Task definitions are JSON text files in ECS that describe one or more containers that form your application. They include various settings like the Docker image to use, CPU and memory allocations, and more.",
       "deckId": 15
+    },
+    {
+      "id": 28,
+      "front": "How do you manage state in a Lambda function?",
+      "back": "Lambda functions are stateless. Manage state between invocations with external services like DynamoDB or S3.",
+      "deckId": 1
+    },
+    {
+      "id": 29,
+      "front": "Explain how Elastic Load Balancers work with EC2 instances.",
+      "back": "Elastic Load Balancers automatically distribute incoming application traffic across multiple targets, such as EC2 instances, improving the distribution of application loads.",
+      "deckId": 2
+    },
+    {
+      "id": 30,
+      "front": "What deployment policies are supported by Elastic Beanstalk?",
+      "back": "Elastic Beanstalk supports All at once, Rolling, Immutable, and Blue/Green deployment policies for updates.",
+      "deckId": 3
+    },
+    {
+      "id": 31,
+      "front": "How can you secure access to S3 buckets?",
+      "back": "Secure S3 buckets using bucket policies, ACLs, and by enabling access logging and encryption.",
+      "deckId": 4
+    },
+    {
+      "id": 32,
+      "front": "How does DynamoDB ensure data consistency?",
+      "back": "DynamoDB supports both eventual and strong consistency. Strong consistency replicates data across multiple servers in different Availability Zones.",
+      "deckId": 5
+    },
+    {
+      "id": 33,
+      "front": "How can IAM enhance security for AWS services?",
+      "back": "IAM enhances security by allowing fine-grained access control to AWS services, resources, and applications using users, groups, roles, and policies.",
+      "deckId": 6
+    },
+    {
+      "id": 34,
+      "front": "Describe the benefits of using VPC Endpoints.",
+      "back": "VPC Endpoints enable private connections between your VPC and AWS services without requiring an Internet Gateway, NAT device, VPN connection, or AWS Direct Connect connection.",
+      "deckId": 7
+    },
+    {
+      "id": 35,
+      "front": "What are the advantages of using CloudFormation StackSets?",
+      "back": "StackSets extend the functionality of stacks by enabling you to create, update, or delete stacks across multiple accounts and regions with a single operation.",
+      "deckId": 8
+    },
+    {
+      "id": 36,
+      "front": "Explain the concept of CloudWatch Alarms.",
+      "back": "CloudWatch Alarms allow you to watch a CloudWatch metric or the result of a math expression based on CloudWatch metrics. Alarms can trigger actions in response to changing data.",
+      "deckId": 9
+    },
+    {
+      "id": 37,
+      "front": "What is the difference between SNS topics and SQS queues?",
+      "back": "SNS is a publish/subscribe service, whereas SQS is a message queue service. SNS pushes messages to multiple subscribers through topics, while SQS holds messages in queues for processing by a single consumer.",
+      "deckId": 10
+    },
+    {
+      "id": 38,
+      "front": "How does SQS integrate with other AWS services?",
+      "back": "SQS integrates with services like S3 for message storage, Lambda for message processing, and EC2 for consumer processing, creating a highly scalable and flexible messaging solution.",
+      "deckId": 11
+    },
+    {
+      "id": 39,
+      "front": "Explain Multi-AZ deployments for RDS.",
+      "back": "Multi-AZ deployments for RDS provide enhanced availability and durability for Database Instances, making them fault tolerant by automatically replicating the data to a standby instance in a different Availability Zone.",
+      "deckId": 12
+    },
+    {
+      "id": 40,
+      "front": "How can Route 53 be used to manage traffic?",
+      "back": "Route 53 can be used to route users to various endpoints based on criteria like geographic location, latency, health checks, and weighted round robin.",
+      "deckId": 13
+    },
+    {
+      "id": 41,
+      "front": "What are the benefits of using API Gateway for microservices?",
+      "back": "API Gateway provides an entry point for microservices, supports versioning, authorization and access control, monitoring, and API rate limiting.",
+      "deckId": 14
+    },
+    {
+      "id": 42,
+      "front": "How do you manage containers in ECS?",
+      "back": "In ECS, containers are managed through task definitions which specify the Docker container images, CPU and memory allocations, and the network and IAM policies.",
+      "deckId": 15
     }
   ]
 }
